@@ -1,0 +1,150 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	background-color: #E4F1FE;
+	padding-top:20px;
+}
+
+
+.pad{
+	padding-top: 40px;
+}
+
+.title{
+	font-size: 40px;
+	border-bottom: dotted black 1px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.content{
+	margin-bottom: 30px;
+}
+
+.space{
+
+	height:40px;
+	background-color: #E4F1FE;
+}
+
+small{
+	font-size:11px;
+	color:#6C7A89;
+}
+	.all{
+		
+		
+		/*padding-left:50px;*/
+		
+
+
+	}
+
+		.all .logo{
+			border-top: 8px #4183D7 solid;
+			border-bottom: 8px #4183D7 solid;
+			font-size: 40px;
+			padding-top: 40px;
+			background-color: #fff;
+			padding-bottom: 40px;
+		}
+
+		
+	.all nav{
+		padding-top:10px;
+		vertical-align: middle;
+	}
+
+		.all nav button{
+		padding-top:3px;
+		vertical-align: middle;
+		font-size: 16px;
+		width:150px;
+		height:50px;
+		color:#fff;
+
+	}
+	@media (max-width: 750px) {
+		button {
+			margin-top:7px;
+		}
+
+	}
+	.all a{
+		text-decoration: none;
+		color:#fff;
+	}
+
+	.presentation{
+
+		background-color: #fff;
+		padding-top:10px;
+		padding-bottom: 30px;
+		padding-left: 40px;
+		padding-right: 10px;
+
+	}
+
+	.presentation p{
+		padding-top:40px;
+		font-size: 18px;
+		text-indent: 15px;
+	}
+
+	.presentation span{
+		padding-top:40px;
+		padding-left: 15px;
+		font-size: 16px;
+		text-indent: 15px;
+	}
+
+	.presentation h4{
+		margin-top:30px;
+	}
+
+	.presentation img{
+		margin-top:40px;
+		border: 8px #4183D7 solid;
+	}
+
+		@media (max-width: 750px) { .presentation img{display: none} }
+
+	.formule {
+		margin-top:30px;
+		padding: 6px 6px 6px 6px;
+		
+		color:#fff;
+		font-size: 18px;
+		font-family: 'Open Sans Condensed', sans-serif;
+		width:300px;
+	}
+
+
+.triangle {
+	width: 0;
+	height: 0;
+	
+	border-left: 14px solid transparent;
+
+}
+
+.matthias {
+	background-color: #4183D7;
+
+}
+
+.matthias-triangle{
+	border-top: 14px solid #22313F;
+}
+
+
+.euler {
+	background-color: #D91E18;
+
+}
+
+.euler-triangle{
+	border-top: 14px solid #96281B;
+}
+
+
+
+	
