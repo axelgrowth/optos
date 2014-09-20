@@ -46,21 +46,29 @@
 
 function checkScreen (){
 
-	if($("#register").isOnScreen()){
+	if($("#presentation").isOnScreen()){
 
-		document.getElementById('registerLink').style.borderBottom = 	"2px solid #22313F"
-		document.getElementById('teamLink').style.borderBottom = 	"none"
-		document.getElementById('teaserLink').style.borderBottom = 	"none"
-	}else if ($("#team").isOnScreen()) {
-
-		document.getElementById('teamLink').style.borderBottom = 	"2px solid #22313F"
-		document.getElementById('teaserLink').style.borderBottom = 	"none"
-		document.getElementById('registerLink').style.borderBottom = 	"none"
-	}else {
-		document.getElementById('teaserLink').style.borderBottom = 	"2px solid #22313F"
-		document.getElementById('registerLink').style.borderBottom = 	"none"
-		document.getElementById('teamLink').style.borderBottom = 	"none"
-	}
+		document.getElementById('presentationLink').style.borderBottom = 	"2px solid #22313F"
+		document.getElementById('formulesLink').style.borderBottom = 	"none"
+		document.getElementById('pointsLink').style.borderBottom = 	"none"
+        document.getElementById('contactsLink').style.borderBottom =  "none"
+	}else if ($("#formules").isOnScreen()) {
+        document.getElementById('formulesLink').style.borderBottom =    "2px solid #22313F"
+        document.getElementById('presentationLink').style.borderBottom =    "none"
+        document.getElementById('pointsLink').style.borderBottom =  "none"
+        document.getElementById('contactsLink').style.borderBottom =  "none"
+	}else if ($("#pointsforts").isOnScreen()) {
+        document.getElementById('pointsLink').style.borderBottom =    "2px solid #22313F"
+        document.getElementById('formulesLink').style.borderBottom =    "none"
+        document.getElementById('presentationLink').style.borderBottom =  "none"
+        document.getElementById('contactsLink').style.borderBottom =  "none"
+	}else if ($("#contact").isOnScreen()) {
+        document.getElementById('contactsLink').style.borderBottom =    "2px solid #22313F"
+        document.getElementById('formulesLink').style.borderBottom =    "none"
+        document.getElementById('presentationLink').style.borderBottom =  "none"
+        document.getElementById('pointsLink').style.borderBottom =  "none"
+    }
 };
 
+checkScreen();
 window.onscroll= checkScreen;

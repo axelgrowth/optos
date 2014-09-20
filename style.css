@@ -2,8 +2,15 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	background-color: #E4F1FE;
-	padding-top:20px;
+	padding-top:150px;
+
 }
+	@media (max-width: 750px) {
+		body{
+			padding-top: 250px;
+		}
+	}
+
 
 
 .pad{
@@ -38,39 +45,99 @@ small{
 
 	}
 
-		.all .logo{
-			border-top: 8px #4183D7 solid;
-			border-bottom: 8px #4183D7 solid;
-			font-size: 40px;
-			padding-top: 40px;
-			background-color: #fff;
-			padding-bottom: 40px;
+	#presentation{
+		padding-top: 120px;
+		margin-top: -120px
+	}
+
+	#formules{
+		padding-top: 100px;
+		margin-top: -100px
+	}
+	#pointsforts{
+		padding-top: 120px;
+		margin-top: -120px
+	}
+
+	#contacs{
+		padding-top: 120px;
+		margin-top: -120px
+	}
+	.all .logo{
+			padding-left: 65px;
 		}
+
+	@media (max-width: 750px) { 
+			#presentation{
+		padding-top: 250px;
+		margin-top: -250px
+	}
+
+	#formules{
+		padding-top: 250px;
+		margin-top: -250px
+	}
+	#pointsforts{
+		padding-top: 250px;
+		margin-top: -250px
+	}
+
+	#contacts{
+		padding-top: 250px;
+		margin-top: -250px
+	}
+	
+	}	
 
 		
 	.all nav{
 		padding-top:10px;
 		vertical-align: middle;
+		background-color: #E4F1FE;
 	}
 
-		.all nav button{
-		padding-top:3px;
-		vertical-align: middle;
-		font-size: 16px;
-		width:150px;
-		height:50px;
-		color:#fff;
 
+		.all .links{
+
+		width: 170px;
+		margin-top: 40px;
+		font-size: 17px;
 	}
+
+	.all .logo img{
+			width:250px;
+		}
 	@media (max-width: 750px) {
 		button {
 			margin-top:7px;
 		}
 
+		.all .links{
+			margin-right:auto;
+			margin-left:auto;
+			margin-top: 10px;
+		}
+
+		.all .logo img{
+			width:200px;
+
+			margin-left: auto;
+			margin-right:auto;
+		}
+
+		.all .logo{
+			padding-left: 105px;
+		}
 	}
+
+	button {
+		height: 50px;
+	}
+
+
 	.all a{
 		text-decoration: none;
-		color:#fff;
+		color:#3A539B;
 	}
 
 	.presentation{
@@ -131,6 +198,7 @@ small{
 
 }
 
+.row{min-height: 1px;}
 .matthias-triangle{
 	border-top: 14px solid #22313F;
 }
@@ -145,6 +213,33 @@ small{
 	border-top: 14px solid #96281B;
 }
 
+.cta{
+	margin-bottom: 40px;
+}
 
 
+
+.mesure {
+	background-color: #F89406;
+
+}
+
+.mesure-triangle{
+	border-top: 14px solid #D35400;
+}
 	
+.vacance {
+	background-color: #87D37C;
+
+}
+
+.vacance-triangle{
+	border-top: 14px solid #26A65B;
+}
+.pointsforts{
+	line-height: 35px;
+}
+
+.pointsforts ul{
+	line-height: 25px;
+}
