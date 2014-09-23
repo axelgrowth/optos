@@ -52,7 +52,7 @@
       <nav role="navigation" class="navbar-fixed-top">
         <div class="row" >
 
-          <div class="col-sm-2 logo"><img src="img/logo.png" ></div>
+          <div class="col-sm-2 logo"><img src="img/logo-3.png" ></div>
           <div class="col-sm-1 col-sm-offset-2 text-center links navi"> 
             <!-- <button type="button" class"btn btn-primary"> -->
             <a id="presentationLink" href="#presentation" class="smoothScroll">Pr&eacute;sentation </a> 
@@ -129,40 +129,66 @@
 
 
      <div class="row content" >
-      <div class="col-sm-5  text-left text-justify"> 
+      <div class="col-md-5  text-left text-justify"> 
 
-        <div class="formule matthias" onclick="affichage('matthias')" id="matthias">Formule <strong>Matthias FEGYVERES </strong></div>
+        <div class="formule matthias" onclick="affichage('matthias')" id="matthias">
+          <div class="row" >
+          <div class="col-sm-8">Formule <strong>Matthias FEGYVERES </strong></div> <div class="col-sm-4 text-right" id="matthiasinfo"> + d'infos <span style="padding-top:0px;padding-left:0px;padding-right:10px;" class="glyphicon glyphicon-chevron-right"></span></div></div>
+        </div>
+
         <div class="triangle  matthias-triangle" id="matthiastriangle"></div>
-        <div class="formule euler" id="euler" onclick="affichage('euler')" >Formule <strong>EULER </strong></div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1  text-left" id="mobilematthias">
+            <p>Cours Hebdomadaires en amphi avec <strong> Matthias FEGYVERES</strong>*:</p><span>2h30/semaine pendant 24 semaines, mercredi soir ou week-end</span> <h4 style='color:#007d93'><strong>Contenu</strong></h4><ul><li><strong>Deuxi&egrave;me ann&eacute;e:</strong> r&eacute;vision compl&egrave;te du programme de premi&egrave;re ann&eacute;e et traitement des nouveaux chapitres, &agrave; travers de nombreuses annales et sujets originaux</li><br><li><strong> Premi&egrave;re ann&eacute;e :</strong> travail sur tout le programme, suivant l’ordre des chapitres du programme officiel</li></ul><h4 style='color:#007d93'><strong>Prix</strong></h4><ul>Nous Consulter<br><span style='color:#bd1c3b;padding-left:0px;'>Profitez de tarifs exceptionnels pour toute inscription avant le 15/10/2014</span></ul> <br><small>* Certains cours seront dispens&eacute;s par Phuong Nguyen (ESSEC 2007), Antoine Poincar&eacute; (HEC 2012)</small>
+        </div></div>
+        <div class="formule euler" id="euler" onclick="affichage('euler')"> 
+          <div class="row" >
+          <div class="col-sm-8">Formule <strong>EULER </strong></div> <div class="col-sm-4 text-right" id="eulerinfo"> + d'infos <span style="padding-top:0px;padding-left:0px;padding-right:10px;" class="glyphicon glyphicon-chevron-right"></span></div></div>
+        </div>
         <div class="triangle euler-triangle" id="eulertriangle"></div>
-        <div class="formule mesure" id="mesure" onclick="affichage('mesure')" >Formule <strong>Cours sur Mesure </strong></div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1  text-left" id="mobilematthias">
+            <p>Cours hebdomadaires en petit groupe de niveau ou par classe :</p><span>2h30/semaine pendant 24 semaines, principalement mercredi soir ou week-end</span> <h4 style="color:#bd1c3b;D91E18"><strong>Contenu</strong></h4> <ul><li><strong>Deuxi&egrave;me ann&eacute;e:</strong> r&eacute;vision compl&egrave;te du programme de premi&egrave;re ann&eacute;e et traitement des nouveaux chapitres, &agrave; travers de nombreuses annales et sujets originaux</li> <br><li><strong> Premi&egrave;re ann&eacute;e :</strong> groupe d&#39;&eacute;tudiants d&#39;une m&ecirc;me classe (sous r&eacute;serve d&#39;un effectif suffisant), suivi exact du cours trait&eacute; en classe.</li></ul><h4 style="color:#bd1c3b;D91E18"><strong>Prix</strong></h4><ul>Nous Consulter <br><span style="color:#bd1c3b;padding-left:0px;">Profitez de tarifs exceptionnels pour toute inscription avant le 15/10/2014</span></ul>
+        </div></div>
+        <div class="formule mesure" id="mesure" onclick="affichage('mesure')" ><div class="row" >
+          <div class="col-sm-8">Formule <strong>Cours sur mesure </strong></div> <div class="col-sm-4 text-right" id="mesureinfo"> + d'infos <span style="padding-top:0px;padding-left:0px;padding-right:10px;" class="glyphicon glyphicon-chevron-right"></span></div></div> </strong></div>
         <div class="triangle  mesure-triangle" id="mesuretriangle"></div>
-        <div class="formule vacance" id="vacances" onclick="affichage('vacances')" >Formule <strong>Stage de Vacances </strong></div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1  text-left" id="mobilematthias">
+            <p>Cours particuliers <strong> Premium</strong>:</p><span>Cours &agrave; domicile &agrave; la demande avec un enseignant form&eacute;.</span><h4 style="color:#507585"><strong>Contenu</strong></h4><ul>R&eacute;vision compl&egrave;te du programme, traitement des nouveaux chapitres non assimil&eacute;s en cours, pr&eacute;paration aux DS et aux concours. </ul><h4 style="color:#507585"><strong>Prix</strong></h4><ul>Nous Consulter</ul>
+        </div></div>
+        <div class="formule vacance" id="vacances" onclick="affichage('vacances')" >
+        <div class="row" >
+          <div class="col-sm-8">Formule <strong>Stage de Vacances </strong></div> <div class="col-sm-4 text-right" id="vacancesinfo"> + d'infos <span style="padding-top:0px;padding-left:0px;padding-right:10px;" class="glyphicon glyphicon-chevron-right"></span></div></div></div>
         <div class="triangle vacance-triangle" id="vacancestriangle"></div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1  text-left" id="mobilematthias">
+            <p>Stage de vacances par groupe de niveaux :</p><span>4h/jour pendant 6 jours cons&eacute;cutifs</span><h4 style="color:#75b545"><strong>Contenu</strong></h4><ul><li><strong>Deuxi&egrave;me ann&eacute;e:</strong> r&eacute;vision compl&egrave;te du programme de premi&egrave;re ann&eacute;e et traitement des nouveaux chapitres, &agrave; travers de nombreuses annales et sujets originaux</li><br><li><strong> Premi&egrave;re ann&eacute;e :</strong> travail qui porte sur le programme, en suivant l&#39;ordre des chapitres.</li></ul><h4 style="color:#75b545"><strong>Prix</strong></h4><ul>Nous Consulter</ul>
+        </div></div>
+        <div class="row " >
 
-    
-      </div>
-      <div class="col-sm-5  text-left text-justify" id="description_desktop"> 
-        
-      </div>
-
-    <br>
-
-    <div class="row " >
-
-      <div class="col-sm-6 col-sm-offset-3 text-center cta-top">
-        Cliquez ci-dessous pour vous inscrire &agrave; un premier cours d'essai <strong>gratuit</strong>
+      <div class="col-sm-10 text-center cta-top">
+        Cliquez ci-dessous pour vous inscrire &agrave; un premier cours d'essai <strong>sans frais</strong> et recevoir les sujets corrigés  2014 <strong>gratuitement </strong>:
       </div>
 
     </div>
     <br />
     <div class="row">
 
-      <div class="col-sm-4 col-sm-offset-4 text-center">
-        <button type="button" onclick="linksjob('cours_offert');" class="btn btn-warning btn-block">UN COURS COLLECTIF OFFERT</button>
+      <div class="col-sm-8 col-sm-offset-1 text-center">
+        <button type="button" onclick="linksjob('cours_offert');" class="btn btn-warning btn-block">JE M'INSCRIS</button>
       </div>
 
     </div>
+    
+      </div>
+      <div class="col-sm-5 col-sm-offset-1 text-left text-justify" id="description_desktop"> 
+        
+      </div>
+
+    <br>
+
+    
     <br />
 
 

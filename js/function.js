@@ -71,6 +71,15 @@ function checkScreen (){
         document.getElementById('presentationLink').style.borderBottom =  "none"
         document.getElementById('pointsLink').style.borderBottom =  "none"
     }
+
+    if(document.getElementById('mobilematthias').offsetWidth>0){
+        $('#description_desktop').fadeOut(5);
+        $('#eulerinfo').fadeOut(250);
+        $('#matthiasinfo').fadeOut(250);
+        $('#mesureinfo').fadeOut(250);
+        $('#vacancesinfo').fadeOut(250);
+
+    }
 };
 
 checkScreen();

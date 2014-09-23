@@ -106,7 +106,7 @@ small{
 	}
 
 	.all .logo img{
-			width:250px;
+			width:350px;
 		}
 	@media (max-width: 750px) {
 		button {
@@ -184,7 +184,8 @@ small{
 
 	.presentation img{
 		margin-top:40px;
-		border: 8px #4183D7 solid;
+		border: 3px #4183D7 solid;
+		border-radius: 3px;
 	}
 
 		@media (max-width: 750px) { .presentation img{display: none} }
@@ -210,7 +211,7 @@ small{
 }
 
 .matthias {
-	background-color: #4183D7;
+	background-color: #007d93;
 
 }
 
@@ -221,7 +222,7 @@ small{
 
 
 .euler {
-	background-color: #D91E18;
+	background-color: #bd1c3b;
 
 }
 
@@ -241,16 +242,16 @@ small{
 
 
 .mesure {
-	background-color: #F89406;
+	background-color: #507585;
 
 }
 
 .mesure-triangle{
-	border-top: 14px solid #D35400;
+	border-top: 14px solid #22313F;
 }
 	
 .vacance {
-	background-color: #87D37C;
+	background-color: #75b545;
 
 }
 
@@ -268,4 +269,22 @@ small{
 
 #description_desktop{
 	display: none;
+}
+
+
+	#mobilematthias{display:none;
+}
+
+
+@media (max-width:999px){
+	#mobilematthias{
+		display: block;}
+	.formule{width:300px;}
+	#description_desktop{
+	display: none;}
+	
+	#eulerinfo{display: none}	
+	#matthiasinfo{display: none}
+	#mesureinfo{display: none}
+	#vacancesinfo{display: none}
 }
