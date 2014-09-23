@@ -57,6 +57,9 @@ function checkScreen (){
         document.getElementById('presentationLink').style.borderBottom =    "none"
         document.getElementById('pointsLink').style.borderBottom =  "none"
         document.getElementById('contactsLink').style.borderBottom =  "none"
+        if (typeof last=='undefined'){
+            window.setTimeout(affichage('matthias'),2000);
+        }
 	}else if ($("#pointsforts").isOnScreen()) {
         document.getElementById('pointsLink').style.borderBottom =    "2px solid #22313F"
         document.getElementById('formulesLink').style.borderBottom =    "none"
@@ -72,3 +75,17 @@ function checkScreen (){
 
 checkScreen();
 window.onscroll= checkScreen;
+
+function linksjob(type){
+
+    if (type == 'cours_offert'){
+        ga('send', 'event', 'bouton', 'Cours Offert', 'centre');
+        window.location.href ="https://eulerprepa.wufoo.com/forms/m1g1ffgc0b5t4sd/";
+    }else {
+        ga('send', 'event', 'bouton', 'Renseignements', 'bas');
+        window.location.href =("https://eulerprepa.wufoo.com/forms/m1g1ffgc0b5t4sd/");
+    }
+
+
+
+}

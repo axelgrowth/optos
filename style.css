@@ -52,6 +52,7 @@ small{
 
 	#formules{
 		padding-top: 100px;
+
 		margin-top: -100px
 	}
 	#pointsforts{
@@ -75,7 +76,7 @@ small{
 
 	#formules{
 		padding-top: 250px;
-		margin-top: -250px
+		margin-top: -250px;
 	}
 	#pointsforts{
 		padding-top: 250px;
@@ -130,8 +131,15 @@ small{
 		}
 	}
 
-	button {
-		height: 50px;
+	button{
+		height: 50px;}
+
+		.btn-block{
+		/*background-color: #E87E04;*/
+		/*border:#2574A9 solid 2px;*/
+		box-shadow: 3px 3px 3px #2C3E50;
+		padding-left:10px;
+		padding-right:10px;
 	}
 
 
@@ -149,6 +157,13 @@ small{
 		padding-right: 10px;
 
 	}
+
+	@media (max-width: 750px) { .presentation{
+		padding-left: 15px;
+		padding-right: 15px;
+
+	}
+}
 
 	.presentation p{
 		padding-top:40px;
@@ -173,15 +188,16 @@ small{
 	}
 
 		@media (max-width: 750px) { .presentation img{display: none} }
-
+		@media (max-width: 950px) { .presentation img{width:350px;} }
 	.formule {
 		margin-top:30px;
 		padding: 6px 6px 6px 6px;
-		
 		color:#fff;
 		font-size: 18px;
 		font-family: 'Open Sans Condensed', sans-serif;
-		width:300px;
+		width:400px;
+		cursor: pointer;
+
 	}
 
 
@@ -215,6 +231,11 @@ small{
 
 .cta{
 	margin-bottom: 40px;
+	
+}
+
+.cta-top{
+	margin-top: 60px;
 }
 
 
@@ -242,4 +263,9 @@ small{
 
 .pointsforts ul{
 	line-height: 25px;
+}
+
+
+#description_desktop{
+	display: none;
 }
